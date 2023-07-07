@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    transition: 0.5s;
+}
+
+:root {
+    --backgroundMain: #FD6E0A;
+    --pColor: #757575;
+    --mainColor: #474747;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: var(--backgroundMain);
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/*------------ end of basic & common css style --------------------- */
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav .logo h2 {
+    font-size: 45px;
+}
+
+nav .logo h2 span {
+    color: var(--backgroundMain);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: var(--mainColor);
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: var(--backgroundMain);
+}
