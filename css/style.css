@@ -76,39 +76,46 @@ nav ul li a:hover {
 
 /* end of nav css ------------------------------- */
 
-.header{
+.header {
     background-color: #FFF8F3;
-    background-image: url(/image/header_bg.png) ;
+    background-image: url(/image/header_bg.png);
     background-repeat: no-repeat;
-    background-position: bottom right;  
+    background-position: bottom right;
 }
-.banner{
-    
+
+.banner {
+
     padding: 30px 30px 0px 130px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.profile-img{
+
+.profile-img {
     width: 500px;
 }
-.banner-text{
+
+.banner-text {
     width: 50%;
 }
-.profile-contact-btn{
+
+.profile-contact-btn {
     background: none;
     border: 2px solid var(--backgroundMain);
     color: var(--backgroundMain);
 }
-.banner-text h3{
-    color:var(--mainColor);
+
+.banner-text h3 {
+    color: var(--mainColor);
     font-size: 35px;
     margin-bottom: 20px;
 }
-.banner-text h1{
+
+.banner-text h1 {
     font-size: 50px;
 }
-.banner-text p{
+
+.banner-text p {
     color: var(--pColor);
     padding: 20px 0;
 }
@@ -119,34 +126,75 @@ nav ul li a:hover {
 /* .about{
    
 } */
-.about-main{
-    padding: 150px ;
+.about-main {
+    padding: 150px;
     background: #FFF8F3;
-    margin:100px 0;
+    margin: 100px 0;
     border-radius: 20px;
     text-align: center;
-    
+
 }
 
-.about-main p{
+.about-main p {
     color: var(--pColor);
     line-height: 1.5;
     margin: 20px 0;
 }
-.about-info{
+
+.about-info {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.about-info p{
-   margin-bottom: 10px;
-   font-size: 14px;
+
+.about-info p {
+    margin-bottom: 10px;
+    font-size: 14px;
 }
-.about-info h3{
+
+.about-info h3 {
     color: var(--mainColor);
     font-size: 16px;
 }
 
 /*------------------------ end of about section  ------------------------------- */
 
+.section-header {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+.section-desciption {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
+    color: var(--pColor);
+}
+
+.skill-container {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap: 20px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #e7e6e6;
+    box-shadow: 20px 20px 60px #b6b6b6,
+        -20px -20px 60px #ffffff;
+}
+
+.skill h3 {
+    margin: 15px 0;
+
+}
+.skill p{
+    color: var(--pColor);
+    line-height: 1.5; 
+    text-align: justify;
+}
