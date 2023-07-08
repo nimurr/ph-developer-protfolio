@@ -76,11 +76,11 @@ nav ul li a:hover {
 
 /* end of nav css ------------------------------- */
 
-.header {
+.header { 
     background-color: #FFF8F3;
-    background-image: url(image/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    background-image:url(../image/header_bg.png), url(../image/developer.png) ;
+    background-repeat: no-repeat; 
+    background-position: bottom right , left top ;
 }
 
 .banner {
