@@ -73,15 +73,22 @@ nav ul li a {
 nav ul li a:hover {
     color: var(--backgroundMain);
 }
+.menu {
+    display: none;
+}
+.menu i{
+    font-size: 45px;
+
+}
 
 /* end of nav css ------------------------------- */
 
-.header { 
+.header {
     background-color: #FFF8F3;
-    background-image:url(../image/header_bg.png), url(../image/developer.png) ;
-    background-repeat: no-repeat; 
-    background-position: bottom right , top 25% left 1% ; 
-    background-size: 700px , 80px;
+    background-image: url(../image/header_bg.png), url(../image/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top 25% left 1%;
+    background-size: 700px, 80px;
 }
 
 .banner {
@@ -194,45 +201,53 @@ nav ul li a:hover {
     margin: 15px 0;
 
 }
-.skill p{
+
+.skill p {
     color: var(--pColor);
-    line-height: 1.5; 
+    line-height: 1.5;
     text-align: justify;
 }
+
 /* end of skill section ------------------------ */
 
-.resume-container{ 
+.resume-container {
     padding: 50px 0;
 
 }
-.resume{
+
+.resume {
     margin: 50px 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit , minmax(400px , 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 30px;
 }
- 
-.resume-heading{
+
+.resume-heading {
     margin: 30px 0;
 }
-.education h3{
+
+.education h3 {
     color: var(--mainColor);
 }
-.education h4{
+
+.education h4 {
     color: var(--pColor);
     margin: 10px 0;
 
 }
-.education p{
+
+.education p {
     color: var(--pColor);
     line-height: 1.5;
     /* margin-bottom: 30px; */
 }
-.education hr{
+
+.education hr {
     margin: 30px 0;
- 
+
 }
-.resume-dow-btn{
+
+.resume-dow-btn {
     display: block;
     text-align: center;
     width: 250px;
@@ -240,35 +255,55 @@ nav ul li a:hover {
 }
 
 /* end of resume section ------------------------- */
-footer{
+footer {
     background-color: #FFF8F3;
 }
 
-.footer{
+.footer {
     padding: 50px 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px , 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     justify-content: space-between;
     grid-gap: 40px;
 }
-.footer h2{
+
+.footer h2 {
     margin-bottom: 20px;
     color: var(--mainColor);
 }
-.footer p{
+
+.footer p {
     color: var(--pColor);
     line-height: 1.5;
 }
-.footer ul{
+
+.footer ul {
     margin-top: 20px;
 }
-.footer img{
+
+.footer img {
     margin-right: 20px;
     cursor: pointer;
 }
-.footer input , .footer textarea{
-    padding:10px ;
+
+.footer input,
+.footer textarea {
+    padding: 10px;
     width: 100%;
     margin-bottom: 20px;
     border: none;
+}
+
+/* footer  */
+
+
+.close{
+    position: absolute;
+        display: block;
+        align-items: center;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        text-align: center; 
+        padding: 20px 0;
 }
